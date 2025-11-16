@@ -1,4 +1,5 @@
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/420af4e2-77b2-4a4e-ae4f-096ce9f28505" />VyomGarud – UAV Systems Landing Page
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/420af4e2-77b2-4a4e-ae4f-096ce9f28505" />
+VyomGarud – UAV Systems Landing Page
 
 A modern, responsive, military-grade landing page built for VyomGarud, a UAV / drone-systems company.
 Designed with a dark, futuristic aesthetic to convey precision, reliability, and advanced autonomy.
@@ -80,9 +81,9 @@ Styling	Tailwind CSS
 Components	shadcn-ui
 Animations	Framer Motion
 Build Tool	Vite
-Folder Structure (Matches Your Project)
+Folder Structure 
 VYOMGARUD-LANDING-PAGE/
-│── node_modules/
+
 │── public/
 │── src/
 │   ├── components/
