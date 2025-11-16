@@ -1,4 +1,4 @@
-VyomGarud – UAV Systems Landing Page
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/420af4e2-77b2-4a4e-ae4f-096ce9f28505" />VyomGarud – UAV Systems Landing Page
 
 A modern, responsive, military-grade landing page built for VyomGarud, a UAV / drone-systems company.
 Designed with a dark, futuristic aesthetic to convey precision, reliability, and advanced autonomy.
@@ -100,11 +100,10 @@ VYOMGARUD-LANDING-PAGE/
 │── tsconfig.app.json
 │── tsconfig.node.json
 │── eslint.config.js
-│── bun.lockb   (if using Bun)
+
 
  Getting Started
 1. Clone the repository
-git clone <YOUR_REPO_URL>
 cd <vyomgaurd-landing -page>
 
 2. Install dependencies
@@ -117,10 +116,6 @@ npm install
 3. Run development server
 npm run dev
 
-
-📸 Screenshots / GIFs
-
-Add your landing page screenshots here.
 
  Live Demo (Optional)
 
