@@ -1,73 +1,128 @@
-# Welcome to your Lovable project
+VyomGarud – UAV Systems Landing Page
 
-## Project info
+A modern, responsive, military-grade landing page built for VyomGarud, a UAV / drone-systems company.
+Designed with a dark, futuristic aesthetic to convey precision, reliability, and advanced autonomy.
 
-**URL**: https://lovable.dev/projects/9ae0f024-7178-4dad-92f8-4b9c9909a5bf
+ Overview
 
-## How can I edit this code?
+This project is a single-page landing site inspired by high-tech aerospace brands like:
 
-There are several ways of editing your application.
+Onomondo
 
-**Use Lovable**
+Raphe MCDS
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9ae0f024-7178-4dad-92f8-4b9c9909a5bf) and start prompting.
+The layout emphasizes strong visuals, clean typography, and subtle animations to highlight VyomGarud’s engineering excellence.
 
-Changes made via Lovable will be committed automatically to this repo.
+ Features / Sections
+1. Hero Section
 
-**Use your preferred IDE**
+VyomGarud brand name
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Tagline + Call-to-Action
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Bold drone/UAV-themed visual
 
-Follow these steps:
+2. About Section
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Short summary of mission & purpose
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. Capabilities / Product Cards
 
-# Step 3: Install the necessary dependencies.
-npm i
+3–4 capability cards (autonomy, UAV platform, sensors, etc.)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Fully responsive grid
+
+4. Highlights
+
+Three feature bullets emphasizing:
+
+Precision Engineering
+
+Reliability
+
+Intelligent Autonomy
+
+5. Contact / Footer
+
+Simple contact layout or links
+
+Clean, minimalistic footer
+
+ Design System
+
+Theme: Dark, modern, slightly military
+
+Primary Colors:
+
+Charcoal
+
+White
+
+Orange Accent:#ff7b00
+
+Fonts:
+
+Poppins
+
+Inter
+
+Montserrat
+
+Styling: Tailwind CSS
+
+Animations: CSS or Framer Motion
+
+🛠 Tech Stack
+Layer	Technology
+Framework	React + Vite
+Language	TypeScript
+Styling	Tailwind CSS
+Components	shadcn-ui
+Animations	Framer Motion
+Build Tool	Vite
+Folder Structure (Matches Your Project)
+VYOMGARUD-LANDING-PAGE/
+│── node_modules/
+│── public/
+│── src/
+│   ├── components/
+│   ├── sections/
+│   ├── assets/
+│   └── App.tsx
+│── index.html
+│── package.json
+│── package-lock.json
+│── README.md
+│── tailwind.config.ts
+│── postcss.config.js
+│── vite.config.ts
+│── tsconfig.json
+│── tsconfig.app.json
+│── tsconfig.node.json
+│── eslint.config.js
+│── bun.lockb   (if using Bun)
+
+ Getting Started
+1. Clone the repository
+git clone <YOUR_REPO_URL>
+cd <vyomgaurd-landing -page>
+
+2. Install dependencies
+
+Using npm:
+
+npm install
+
+
+3. Run development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+📸 Screenshots / GIFs
 
-**Use GitHub Codespaces**
+Add your landing page screenshots here.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+ Live Demo (Optional)
 
-## What technologies are used for this project?
+If deployed, add link here.
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9ae0f024-7178-4dad-92f8-4b9c9909a5bf) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
